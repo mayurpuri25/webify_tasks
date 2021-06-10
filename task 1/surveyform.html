@@ -1,0 +1,95 @@
+<!DOCTYspanE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httspan-equiv="X-UA-Comspanatible" content="IE=edge">
+    <meta name="viewspanort" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey form</title>
+</head>
+<body>
+    <h1>survey form</h1>
+    <form>
+        <h2>let us know how we can improve freecodecamp</h2>
+        <section class="container">
+            <div class="left">
+                <label for="name">* name: </label>
+            </div>
+            <div class="right">
+                <input type="text" name="name" id="name" placeholder="enter your name" required>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="left">
+                <label for="email">* email: </label>
+            </div>
+            <div class="right">
+                <input type="email" name="email" id="email" placeholder="enter your email" required>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="left">
+                <label for="age">* age: </label>
+            </div>
+            <div class="right">
+                <input type="number" name="age" id="age" placeholder="enter your age" required>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="left">
+                <label for="role">* which option best describe your current role? </label>
+            </div>
+            <div class="right">
+                <select name="role" id="role" required>
+                    <option value="student">student</option>
+                    <option value="teacher">teacher</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="container" style="height: 80px;">
+            <div class="left">
+                <label for="recommend">how likely is that you would recommend freecodecamp to your friend? </label>
+            </div>
+            <div class="right">
+                <input type="radio" name="recommend" id="definitely">definitely <br>
+                <input type="radio" name="recommend" id="maybe">maybe <br>
+                <input type="radio" name="recommend" id="not sure">not sure                 
+            </div>
+        </section>
+        <br>
+        <section class="container">
+            <div class="left">
+                <label for="like">what do you like most in FCC? </label>
+            </div>
+            <div class="right">
+                <select name="like" id="like">
+                    <option value="option1">option1</option>
+                    <option value="option2">option2</option>
+                    <option value="option3">option3</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="container" style="height: 80px;">
+            <div class="left">
+                <label for="improved">things that should be improved in future? </label>
+            </div>
+            <div class="right">
+                <input type="checkbox" name="f" id="definitely">front-end <br>
+                <input type="checkbox" name="b" id="maybe">back-end <br>
+                <input type="checkbox" name="dv" id="not sure">data-visualization               
+            </div>
+        </section>
+        <br><br><br>
+        <section class="button" >
+          <input class="a" type="submit" value="submit">
+          <input class="a" type="reset" value="reset">
+        </section>
+    </form>
+</body>
+</html>
